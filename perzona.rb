@@ -52,3 +52,5 @@ puts "elaboring perzona..."
 puts Perzona.perzona_falza
 puts Perzona.new
 puts Kane.new
+puts Kane.new == Perzona.new
+puts Perzona.new == Kane.new
